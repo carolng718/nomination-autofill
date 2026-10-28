@@ -1,6 +1,6 @@
 // Service worker: lets the installed app open quickly and work offline.
 // The app page is fetched fresh when online (so updates show up), with the cached copy as fallback.
-const CACHE = 'nomination-v1';
+const CACHE = 'nomination-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 const LIBS = [
   'https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js',
